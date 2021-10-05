@@ -39,3 +39,19 @@ print("age")
 new_student = True
 name = "Roos van Velthoven"
 age = 24
+
+# ---
+
+# What does the function type() do?
+
+# The function type() allows us to determine the class of a variable.
+
+# For example:
+print(type(age))
+
+# You can change the type of your variable by adding int(), float(), bool() or str() at the beginning.
+
+# For example:
+age = str(age)
+
+print(type(age))
