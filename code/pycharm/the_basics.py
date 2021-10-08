@@ -40,9 +40,7 @@ new_student = True
 name = "Roos van Velthoven"
 age = 24
 
-# ---
-
-# What does the function type() do?
+# --- What does the function type() do?
 
 # The function type() allows us to determine the class of a variable.
 
@@ -55,3 +53,59 @@ print(type(age))
 age = str(age)
 
 print(type(age))
+
+# --- arithmetic operators
+
+# + addition operator
+# - subtraction operator
+# * multiplication operator
+# / division operator (float)
+print(7 / 3 )
+# 2.3333333333333335
+# // division operator (integer)
+print(7 // 3 )
+# 2
+# % modulis operator (returns the remainder of the division)
+print(7 % 3 )
+# 1
+# ** exponent (to the power) operator
+print(7 ** 2 )
+# 49
+
+# Augmented operators (e.g., += and -=)
+x = 5
+x = x + 3
+print(x)
+# 8
+
+y = 5
+y += 3
+print(y)
+# 8
+
+# Order of operations (operator precedence).
+
+# Parenthesis ()
+# Exponentiation
+# Multiplications or divisions
+# Addition or subtraction
+
+# --- Math functions
+x = 15.5
+print(round(x))
+# 16
+
+y = -22.3
+print(abs(y)) # abs returns an absolute number (a positive number)
+# 22.3
+
+# To import the math model type import math:
+import math
+
+print(math.ceil(2.9))
+# 3
+
+print(math.floor(2.9))
+# 2
+
+# See the webpage https://docs.python.org/3/library/math.html for further information on the available functions.
